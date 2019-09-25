@@ -1,9 +1,14 @@
 # Go Project Builder Using BuildStream
 
-This is technology demonstrator of [buildstream](https://docs.buildstream.build/) and [buildah](https://buildah.io/).
+This is technology demonstrator of [buildstream](https://docs.buildstream.build/) and [buildah](https://buildah.io/).  
 
-The pre-requistes are  buildstream (version 1.2.7 +) and buildah (version 1.6 +)
+The pre-requistes are  buildstream (version 1.2.7 +) and buildah (version 1.6 +)  
 
+Before buidling the example, need to get a small base os:
+cd utils  
+./getos.sh  
+Alternatively, comment out the ref and url lines in base.bst file and uncomment similar lines that point to  
+the base os used in the buildstream examples   
 # Getting Started
 **To build example project**: bst build hello-go-build.bst  
 **To open the project build sandbox**: bst shell hello-go-build.bst  
