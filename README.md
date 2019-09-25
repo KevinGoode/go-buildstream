@@ -4,7 +4,8 @@ This is technology demonstrator of [buildstream](https://docs.buildstream.build/
 
 The pre-requistes are  buildstream (version 1.2.7 +) and buildah (version 1.6 +)  
 
-Before buidling the example, need to get a small base os:
+# Configuration
+Before buidling the example, need to get a small base os:  
 cd utils  
 ./getos.sh  
 Alternatively, comment out the ref and url lines in base.bst file and uncomment similar lines that point to  
