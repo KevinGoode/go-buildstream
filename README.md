@@ -19,11 +19,11 @@ the base os used in the buildstream examples
 # What Next?
  
  -  Running the container via docker:
-> buildah push localhost/XX docker-daemon:localhost/XX:latest
-docker run localhost/XX
+> buildah push localhost/XX docker-daemon:localhost/XX:latest  
+docker run localhost/XX  
 (Note your user will need write access to /var/run/docker.sock)
 
 - Running the container via podman
->podman run localhost/$CONTAINERNAME
+>podman run localhost/$CONTAINERNAME  
  - The script package.py can be used to build a container for any project that contains the following 2 files: /elements/project-name.bst, packaging/project-name.json.
 
