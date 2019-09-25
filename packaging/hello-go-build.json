@@ -1,0 +1,14 @@
+{
+ "name": "hello-go-build",
+ "format_version": "1",
+ "description":"Demo go build nad packaging",
+ "author": "K.Goode",
+ "stop_signal": "SIGINT",
+ "stop_timeout": "60",
+ "user": "root",
+ "entrypoint": ["/usr/bin/hello-go-build"],
+ "exposed_ports": ["50053"],
+ "env": {"EXAMPLE_ENV_VAR": "someseting"},
+ "volumes": [],
+ "annotations": {}
+}
