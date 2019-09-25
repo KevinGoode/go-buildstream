@@ -5,10 +5,10 @@ This is technology demonstrator of [buildstream](https://docs.buildstream.build/
 The pre-requistes are  buildstream (version 1.2.7 +) and buildah (version 1.6 +)
 
 # Getting Started
-**To build example project**: bst build hello-go-build.bst 
-**To open the project build sandbox**: bst shell hello-go-build.bst
-(To execute the program in the sandbox /usr/bin/hello-go-build)
-**To build the project as an oci container**:  ./packaging/package.py hello-go-build
+**To build example project**: bst build hello-go-build.bst  
+**To open the project build sandbox**: bst shell hello-go-build.bst  
+(To execute the program in the sandbox /usr/bin/hello-go-build)  
+**To build the project as an oci container**:  ./packaging/package.py hello-go-build  
 
 # What Next?
  
