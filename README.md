@@ -1,6 +1,6 @@
 # Go Project Builder Using BuildStream
 
-This is technology demonstrator of [buildstream](https://docs.buildstream.build/) and [buildah](https://buildah.io/).  
+This is a technology demonstrator of [buildstream](https://docs.buildstream.build/) and [buildah](https://buildah.io/).  
 
 The pre-requistes are  buildstream (version 1.2.7 +) and buildah (version 1.6 +)  
 
