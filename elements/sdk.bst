@@ -1,17 +1,11 @@
-# (C) Copyright 2019 Hewlett Packard Enterprise Development LP
 kind: import
-
-public:
-  bst:
-    overlap-whitelist:
-    - |
-      **
-
-    #integration-commands:
-    #- ldconfig
-
+description: Import the base freedesktop SDK
 sources:
-- kind: tar
-  base-dir: gnome-sdk/files
-  url: alpine:gnome-sdk.tar.xz
-  ref: 96d5062a19fa9ac3439f8a502664f8d46860bad7efd28e7909b03ddbcdbe66e6
+- kind: ostree
+  url: flathub:repo/
+  track: runtime/org.freedesktop.BaseSdk/x86_64/1.4
+  ref: 7306169ea9c563f3ce75bb57be9e94b0acf1d742edacab0aa751cf6646a4b52e
+
+config:
+  source: files
+  target: usr

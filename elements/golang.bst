@@ -17,6 +17,6 @@ depends:
 
 sources:
 - kind: tar
-  url: https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
+  url: https://dl.google.com/go/go1.13.1.linux-amd64.tar.gz
   base-dir: ''
-  ref: 66d83bfb5a9ede000e33c6579a91a29e6b101829ad41fffb5c5bb6c900e109d9
+  ref: 94f874037b82ea5353f4061e543681a0e79657f787437974214629af8407d124

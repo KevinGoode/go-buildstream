@@ -6,10 +6,7 @@ description: |
 # Depend on the base system
 depends:
 - base.bst
-#- golang.bst
 - filename: golang.bst
-  type: build
-- filename: sdk.bst
   type: build
 
 
